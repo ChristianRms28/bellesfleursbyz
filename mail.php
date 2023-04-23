@@ -17,7 +17,7 @@ if(isset($_POST["send"])){
         <meta charset="UTF-8">
     </head>
     <body>
-        <p> Good Day! <strong> '. $name.'! </strong></p>
+        <p> Good Day po! <strong> '. $name.'! </strong></p>
         <p>Thank you for your feedback!</p>
         <br>
         A flower a day makes a brighter day!<br>
