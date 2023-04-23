@@ -68,9 +68,7 @@ grid-template-columns: 1fr 1fr;
 background-color: #ad967c;
 }
 .content2{
-background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)),url(Image/f1.jpg);
-background-position: center;
-background-size: cover;
+    background-color: #ad967c;
 }
 .content1 .content{
 color: #000;
@@ -580,9 +578,7 @@ grid-template-columns: 1fr 1fr;
 background-color: #ad967c;
 }
 .content2{
-background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)),url(Image/f1.jpg);
-background-position: center;
-background-size: cover;
+    background-color: #ad967c;
 }
 .content1 .content{
 color: #000;
@@ -837,9 +833,7 @@ grid-template-columns: 1fr 1fr;
 background-color: #ad967c;
 }
 .content2{
-background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)),url(Image/f1.jpg);
-background-position: center;
-background-size: cover;
+    background-color: #ad967c;
 }
 .content1 .content{
 color: #000;
