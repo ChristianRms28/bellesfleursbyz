@@ -28,10 +28,14 @@
     <div class="content1">
       <div class="content">
 
-      <img src="ImageBf/b1.jpg" class="img-fluid" alt=""
+      <img src="ImageBf/b1.jpg" class="img-fluid" id="leftpic" alt=""
        width="200" 
         height="300"/>
-      
+
+        <img src="ImageBf/bq1.jpg" class="img-fluid" alt=""
+       width="200" 
+        height="300"/>
+
       </div>
       <div class="social-container">
         <div class="social-icons">
@@ -42,7 +46,19 @@
       </div>
     </div>
     <div class="content2">
+        
       <h1 style="font-size: 45px">Flower <span>Arrangements</span></h1>
+      <div style="padding-top: 360px;" class="content">
+
+<img src="ImageBf/f1.jpg" class="img-fluid" id="rightpic" alt=""
+ width="200" 
+  height="300"/>
+  
+  <img src="ImageBf/v1.jpg" class="img-fluid" alt=""
+ width="200" 
+  height="300"/>
+
+</div>
     </div>
   </section>
 </body>

@@ -81,6 +81,7 @@ text-align: left;
 width: 500px;
 height: 317px;
 }
+
 .content p{
 font-size: 15px;
 line-height: 25px;
@@ -578,18 +579,24 @@ grid-template-columns: 1fr 1fr;
 background-color: #ad967c;
 }
 .content2{
-    background-color: #ad967c;
+  background-color: #ad967c;
 }
 .content1 .content{
 color: #000;
 padding: 20px;
 background-color: #ad967c;
 position: absolute;
-left: 150px;
+left: 100px;
 top: 340px;
 text-align: left;
 width: 500px;
 height: 317px;
+}
+#leftpic{
+  margin-right: 50px;
+}
+#rightpic{
+  margin-right: 100px;
 }
 .content p{
 font-size: 15px;
@@ -833,8 +840,8 @@ grid-template-columns: 1fr 1fr;
 background-color: #ad967c;
 }
 .content2{
-    background-color: #ad967c;
-}
+  background-color: #ad967c;
+  }
 .content1 .content{
 color: #000;
 padding: 20px;

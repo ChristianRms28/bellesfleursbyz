@@ -27,8 +27,12 @@
   <section id="home">
     <div class="content1">
       <div class="content">
-        <h1>Belles fleurs is a simple </h>
-        
+        <h1>Belles fleurs is a simple flower shop that will give color and beauty in your day! </h1>
+        <br></br>
+        <h1> Mision: Our mission is to help our clients express their feelings and great love with our carefully curated arrangement most specially for the ones they love.<h1>
+        <br></br>
+        <h1>Vision: Our vision is to give our clients an alluring and quality everlasting bunch of blooms arrangement that will make their day.<h>
+
       </div>
       <div class="social-container">
         <div class="social-icons">
@@ -39,7 +43,7 @@
       </div>
     </div>
     <div class="content2">
-      <h1>About Belles Fleurs <span></span></h1>
+    <h1>About Belles <span>Fleurs</span></h1>
     </div>
   </section>
 </body>
