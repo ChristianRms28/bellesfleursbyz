@@ -28,7 +28,7 @@
     <div class="content1">
       <div class="content">
 
-      <img src="ImageBF/b1.jpg" class="img-fluid" alt=""
+      <img src="ImageBf/b1.jpg" class="img-fluid" alt=""
        width="200" 
         height="300"/>
       
