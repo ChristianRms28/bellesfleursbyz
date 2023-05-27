@@ -36,9 +36,8 @@
       </div>
       <div class="social-container">
         <div class="social-icons">
-          <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.facebook.com/bellesfleursbyz"><i class="fa fa-facebook-f"></i></a></li>
+          <li><a href="https://www.instagram.com/bellesfleursbyz/"><i class="fa fa-instagram"></i></a></li>
         </div>
       </div>
     </div>
