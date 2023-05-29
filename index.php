@@ -14,12 +14,14 @@
 
   <div class="navbar">
     <div class="inner-width">
-      <a href="#" class="logo"><span>F</span>lowers</a>
+      <a href="" class="logo"><span>F</span>lowers</a>
       <div class="navbar-menu">
         <a href="index.php">Home</a>
         <a href="about.php">About</a>
         <a href="products.php">Products</a>
-        <a href='response.php'>Response</a>
+        <a href="response.php">Response</a>
+        <a href="login.php">Admin Login</a>
+
         
       </div>
     </div>
@@ -28,7 +30,7 @@
     <div class="content1">
       <div class="content">
         <p>Let’s turn your dream arrangement into a reality</p>
-        <button>buy now</button>
+        <button> <a href='products.php'>buy now</a></button>
       </div>
       <div class="social-container">
         <div class="social-icons">
@@ -43,3 +45,36 @@
   </section>
 </body>
 </html>
+<!-- <?php
+// $host = 'localhost';
+// $username = 'your_username';
+// $password = 'your_password';
+// $database = 'your_database';
+
+// // Create a connection
+// $conn = new mysqli($host, $username, $password, $database);
+
+// // Check the connection
+// if ($conn->connect_error) {
+//     die("Connection failed: " . $conn->connect_error);
+// }
+
+// // Perform a database query
+// $sql = "SELECT * FROM your_table";
+// $result = $conn->query($sql);
+
+// // Process the query result
+// if ($result->num_rows > 0) {
+//     while ($row = $result->fetch_assoc()) {
+//         // Access data from each row
+//         $id = $row['id'];
+//         $name = $row['name'];
+//         // ... process the data
+//     }
+// } else {
+//     echo "No results found.";
+// }
+
+// // Close the connection
+// $conn->close();
+?> -->

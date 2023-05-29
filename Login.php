@@ -103,7 +103,7 @@ body {
 </style>
 <body>
   <div class="container">
-    <form>
+    <form method="POST" action="login-ins.php">
       <h2>Login</h2>
       <div class="form-group">
         <label for="username">Username:</label>
@@ -113,11 +113,8 @@ body {
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" required>
       </div>
-          <button class="button" onclick="clearInputs()">Login</button>
-      <div class="form-group">
-      </div>
+      <input type="submit" value="Login" class="button">
     </form>
   </div>
-  
 </body>
 </html>
