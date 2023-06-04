@@ -14,13 +14,12 @@
 
   <div class="navbar">
     <div class="inner-width">
-      <a href="#" class="logo"><span>F</span>lowers</a>
+      <a href="index.php" class="logo"><span>F</span>lowers</a>
       <div class="navbar-menu">
-        <a href="index.php">Home</a>
-        <a href="about.php">About</a>
-        <a href="products.php">Products</a>
-        <a href='response.php'>Response</a>
-        <a href="login.php">Admin Login</a>
+      <a href="index.php">Home</a>
+      <a href="about.php">About</a>
+      <a href="products.php">Products</a>
+      <a href="upload.php">Upload</a>
 
       </div>
     </div>

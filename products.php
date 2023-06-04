@@ -89,11 +89,10 @@
 <body>
   <div class="navbar">
     <div class="navbar-menu">
-      <a href="index.php">Home</a>
+    <a href="index.php">Home</a>
       <a href="about.php">About</a>
       <a href="products.php">Products</a>
-      <a href="response.php">Response</a>
-      <a href="login.php">Admin Login</a>
+      <a href="upload.php">Upload</a>
     </div> <!-- Close the navbar-menu div -->
   </div> <!-- Close the navbar div -->
   <div class="container">
@@ -103,31 +102,31 @@
         <img src="ImageBf/b1.jpg" alt="Product 1">
         <h3>Basket Products</h3>
         <p>Like a rainbow bursting with vibrant hues, a basket of flowers brings joy that's simply too beautiful to refuse.</p>
-        <a href="add.html">Buy Now</a>
+        <a href="#">Buy Now</a>
       </div>
       <div class="product">
         <img src="ImageBf/fr1.jpg" alt="Product 2">
         <h3>Frame Products</h3>
         <p>"In the frame of life's canvas, flowers bloom as delicate masterpieces, painting moments of beauty that forever last."</p>
-        <a href="add.html">Buy Now</a>
+        <a href="#">Buy Now</a>
       </div>
       <div class="product">
         <img src="ImageBf/v1.jpg" alt="Product 3">
         <h3>Vase Products</h3>
         <p>"A vase of flowers, nature's sweet embrace, whispers tales of grace and fills every space with colors that inspire and hearts that admire."</p>
-        <a href="add.html">Buy Now</a>
+        <a href="#">Buy Now</a>
       </div>
       <div class="product">
         <img src="ImageBf/bq1.jpg" alt="Product 4">
         <h3>Bouquet Products</h3>
         <p>"A bouquet of flowers, a symphony of scents and hues, nature's gift bundled in delicate cues. Each bloom tells a story, a whisper of love, a reminder of beauty from earth above."</p>
-        <a href="add.html">Buy Now</a>
+        <a href="#">Buy Now</a>
       </div>
       <div class="product">
         <img src="ImageBf/circle.jpg" alt="Product 4">
         <h3>Customize your design</h3>
         <p>"Like a tailored dream, customized flowers bloom, weaving desires and passions in a unique room. Each petal chosen with intention and care, creating a masterpiece beyond compare."</p>
-        <a href="add.html">Buy Now</a>
+        <a href="#">Buy Now</a>
       </div>
       <!-- Add more product divs as needed -->
     </div>

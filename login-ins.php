@@ -1,38 +1,25 @@
+
 <?php
-// Assuming your database credentials
-$host = 'localhost';
-$dbname = 'belles-fleurs';
-$username = 'root';
-$password = '';
+// Assuming you have already established a database connection
+include 'dbconnection.php';
 
-// Attempt to establish a database connection
-try {
-    $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-} catch (PDOException $e) {
-    die("Connection failed: " . $e->getMessage());
-}
 
-// Retrieve the submitted username and password from the form
-if (isset($_POST['username']) && isset($_POST['password'])) {
-    $username = $_POST['username'];
-    $password = $_POST['password'];
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  // Retrieve form data
+  $username = $_POST["username"];
+  $password = $_POST["password"];
 
-    // Prepare and execute a query to check if the provided username and password exist in the database
-    $stmt = $pdo->prepare("SELECT * FROM admin WHERE username = :username AND password = :password");
-    $stmt->bindParam(':username', $username);
-    $stmt->bindParam(':password', $password);
-    $stmt->execute();
-
-    // Check if a row was returned
-    if ($stmt->rowCount() > 0) {
-        // Authentication successful, redirect to a success page
-        header("Location: admin.html");
-        exit();
-    } else {
-        // Authentication failed, redirect back to the login page with an error message
-        header("Location: index.php");
-        exit();
-    }
+  // Validate the login credentials against the database
+  // Example: Using MySQLi extension
+  $query = "SELECT * FROM admin WHERE username = '$username' AND password = '$password'";
+  $result = mysqli_query($conn, $query);
+  
+  if (mysqli_num_rows($result) == 1) {
+    // Login successful
+    echo "Login successful!";
+  } else if (!$result){
+    // Login failed
+    echo "Invalid username or password.";
+  }
 }
 ?>
