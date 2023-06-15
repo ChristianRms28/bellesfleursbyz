@@ -98,9 +98,10 @@
     <div class="inner-width">
       <a href="index.php" class="logo"><span>B</span>elles<span>F</span>leurs</a>
       <div class="navbar-menu">
-      <a href="index.php">Home</a>
-      <a href="about.php">About</a>
-      <a href="products.php">Products</a>
+      <a href="admin.php">Home</a>
+      <a href="about2.php">About</a>
+      <a href="products2.php">Products</a>
+      <a href="crudmain/index.php">Upload</a>
 
         
       </div>

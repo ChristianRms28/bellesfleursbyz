@@ -21,5 +21,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Login failed
     echo "Invalid username or password.";
   }
-}
+}header("Location: admin.php");
 ?>
