@@ -13,6 +13,9 @@
   input{
     margin: 10px;
 }
+body{
+background-color: #FFB6C1;
+}
             </style>
 
 </head>

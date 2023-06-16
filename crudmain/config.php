@@ -1,10 +1,10 @@
 <?php
 
 
-$host = "localhost";
-    $username = "root";
-    $password = "";
-    $database = "belles-fleurs";
+    $host = "localhost";
+    $username = "u991824422_xtian";
+    $password = "w!23qo[!I";
+    $database = "u991824422_flower";
     $con = mysqli_connect($host, $username, $password, $database);
 
 if (!$con) {
